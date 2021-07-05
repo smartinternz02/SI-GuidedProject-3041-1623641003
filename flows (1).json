@@ -1,0 +1,46 @@
+[
+    {
+        "id": "969cda28.b13b88",
+        "type": "ui_gauge",
+        "z": "ec35e681.ab5218",
+        "name": "Signalling time",
+        "group": "3e9b4254.7903ce",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "SIGNALLING TIME",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "10",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 640,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "3e9b4254.7903ce",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "696fbd8c.066594",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "696fbd8c.066594",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
